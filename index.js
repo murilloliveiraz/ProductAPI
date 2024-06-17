@@ -5,7 +5,7 @@ import sql from "msnodesqlv8";
 const app = express();
 app.use(bodyParser.json());
 const PORT = 3000;
-const connectionString = "server=DSN1191109174;Database=corinthians;Trusted_Connection=Yes;Driver={Sql Server Native Client 11.0}";
+const connectionString = "server=DSN1191109174;Database=products;Trusted_Connection=Yes;Driver={Sql Server Native Client 11.0}";
 
 // Buscar todos os registros
 app.get("/products", (req, res) => {
